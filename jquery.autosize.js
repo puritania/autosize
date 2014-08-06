@@ -119,7 +119,7 @@
 					width = $ta.width();
 				}
 
-				mirror.style.width = Math.max(width,0) + 'px';
+                mirror.style.setProperty('width',  Math.max(width,0) + 'px', 'important');
 			}
 
 			function initMirror() {
